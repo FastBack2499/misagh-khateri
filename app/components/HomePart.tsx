@@ -68,7 +68,7 @@ function HomePart() {
                   8+ Years
                 </p>
                 <p className="md:text-lg font-semibold text-gray-400">
-                  Sells
+                  Sell
                 </p>
               </div>
               <div className="flex pl-2 flex-col border-l-2 gap-y-1">
