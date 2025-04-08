@@ -1,11 +1,14 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import usePathname from "@/app/lib/usePathname";
+
+const pathname = usePathname
 
 export const metadata: Metadata = {
   title: "Misagh Khateri",
   description: "Misagh Khateri Financial Advisor",
   alternates: {
-    canonical: "https://www.misagh-khateri.info"
+    canonical: `https://www.misagh-khateri.info${pathname}`
   }
 };
 
