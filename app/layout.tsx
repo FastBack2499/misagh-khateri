@@ -1,10 +1,22 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import usePathname from "@/app/lib/usePathname";
+import Script from "next/script";
 
 const pathname = usePathname
 
 export const metadata: Metadata = {
+  openGraph: {
+    title: 'Misagh Khateri – Experienced Financial Adviser Specializing in Banking and Market Analysis',
+    description: 'Explore the professional portfolio of Misagh Khateri, a San Francisco-based financial adviser with over a decade of experience in banking, trading, and financial market analysis. Discover services ranging from SWIFT transactions to client portfolio management.',
+    images: [
+      {
+        url: "https://www.misagh-khateri.info/preview.png",
+        width: 1200,
+        height: 630,
+      }
+    ]
+  },
   title: "Misagh Khateri – Experienced Financial Adviser Specializing in Banking and Market Analysis",
   description: "Explore the professional portfolio of Misagh Khateri, a San Francisco-based financial adviser with over a decade of experience in banking, trading, and financial market analysis. Discover services ranging from SWIFT transactions to client portfolio management.",
   alternates: {
@@ -22,6 +34,27 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          id="json-ld"
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Misagh Khateri",
+              "url": "https://www.misagh-khateri.info",
+              "image": "https://www.misagh-khateri.info/preview.png",
+              "jobTitle": "Financial Adviser",
+              "author": {
+                "@type": "Person",
+                "name": "Roham Esmaeili"
+              }
+            }),
+          }}
+        />
+      </head>
       <body suppressHydrationWarning>
         {children}
       </body>
