@@ -17,15 +17,15 @@ function HomePart() {
             <p className="text-[#515d6d] font-semibold text-sm lg:text-xl">
               Hi I am
             </p>
-            <p className="text-gray-400 font-bold lg:text-3xl text-2xl">
+            <h1 className="text-gray-400 font-bold lg:text-3xl text-2xl">
               Misagh Khateri
-            </p>
+            </h1>
           </div>
 
           <div className="flex text-white lg:text-6xl items-center justify-center md:items-start md:justify-normal text-4xl font-bold pb-5 cursor-default">
-            <p>
+            <h1>
               Financial Adviser
-            </p>
+            </h1>
           </div>
 
           <div className="flex justify-center items-center md:items-start md:justify-normal gap-x-3 w-full h-10 md:py-3 md:pb-[70px] py-8">
@@ -59,25 +59,25 @@ function HomePart() {
                 <p className="font-bold text-xl text-white">
                   10+ Years
                 </p>
-                <p className="md:text-lg font-semibold text-gray-400">
+                <h2 className="md:text-lg font-semibold text-gray-400">
                   Trading
-                </p>
+                </h2>
               </div>
               <div className="flex flex-col gap-y-1">
                 <p className="font-bold text-xl text-white">
                   8+ Years
                 </p>
-                <p className="md:text-lg font-semibold text-gray-400">
+                <h2 className="md:text-lg font-semibold text-gray-400">
                   Sell
-                </p>
+                </h2>
               </div>
               <div className="flex pl-2 flex-col border-l-2 gap-y-1">
                 <p className="font-bold text-xl text-white">
                   5+ Years
                 </p>
-                <p className="md:text-lg font-semibold text-gray-400">
+                <h2 className="md:text-lg font-semibold text-gray-400">
                   Accounting
-                </p>
+                </h2>
               </div>
             </div>
 
