@@ -80,9 +80,9 @@ function Services() {
       <div className='max-w-screen-lg mx-auto py-4 px-6 md:px-0 lg:px-6 w-full h-full'>
 
         <div className='flex flex-col items-center justify-center pt-20 cursor-default'>
-          <p className='text-white text-2xl font-bold py-4'>
+          <h1 className='text-white text-2xl font-bold py-4'>
             Services
-          </p>
+          </h1>
           <p className='font-semibold text-gray-500 pb-6'>
             List of Services I can supply
           </p>
@@ -97,9 +97,9 @@ function Services() {
                 <div className='mt-1'>
                   {icon}
                 </div>
-                <p className='mt-2 text-white font-bold text-base md:text-xl'>
+                <h2 className='mt-2 text-white font-bold text-base md:text-xl'>
                   {title}
-                </p>  
+                </h2>  
               </div>
 
               <p className='mt-3 mb-1.5 px-5 font-semibold text-[#818181]'>
