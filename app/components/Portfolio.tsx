@@ -39,9 +39,9 @@ function Portfolio() {
 
       <div className='flex flex-col items-center justify-center pt-5 pb-9'>
 
-        <p className='text-white text-2xl font-bold cursor-default'>
+        <h1 className='text-white text-2xl font-bold cursor-default'>
           Experience
-        </p>
+        </h1>
 
       </div>
 
@@ -55,9 +55,9 @@ function Portfolio() {
             { image ? (
               <div className="flex items-center justify-between">
 
-                <p className="text-2xl font-bold text-white cursor-default">
+                <h2 className="text-2xl font-bold text-white cursor-default">
                   {title}
-                </p>
+                </h2>
 
                 { id === 1 && (
                   <Image src={image} alt="JPMorgan Icon" width={170}/>
@@ -69,9 +69,9 @@ function Portfolio() {
 
               </div>
             ) : (
-              <p className="text-2xl font-bold text-white cursor-default">
+              <h2 className="text-2xl font-bold text-white cursor-default">
                 {title}
-              </p>
+              </h2>
             )}
 
             <p className="text-xl font-semibold text-gray-400 cursor-default">
@@ -90,9 +90,9 @@ function Portfolio() {
               <div className="w-[88px] py-1.5">
                 <a href={site} download target='_blank' rel="noreferrer" className="rounded-full text-gray-500 flex px-2 py-1 items-center justify-center font-semibold text-sm hover:scale-105 hover:text-gray-300 hover:bg-neutral-700 transition-all duration-300">
               
-                  <p className=''>
+                  <h3 className=''>
                     Website
-                  </p>
+                  </h3>
 
                   <LinkOut size={20} className='pl-1' />
 
