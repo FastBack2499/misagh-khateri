@@ -50,7 +50,7 @@ function Navbar() {
     }
 
   return (
-    <div className="flex fixed w-full h-20 z-10">
+    <nav className="flex fixed w-full h-20 z-10">
 
       <div className="flex absolute justify-between items-center w-full px-6 md:px-14 text-white h-20 bg-primary/70 backdrop-blur-lg z-10">
 
@@ -112,7 +112,7 @@ function Navbar() {
         Hire Me
       </Button> */}
 
-    </div>
+    </nav>
   )
 }
 
