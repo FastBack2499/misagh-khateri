@@ -4,7 +4,7 @@ import TradingView from './icon/TradingView'
 
 function Footer() {
   return (
-    <div className='flex flex-col items-center justify-center bg-[#242424]'>
+    <footer className='flex flex-col items-center justify-center bg-[#242424]'>
 
       <div className="flex py-8">
         <h1 className="text-2xl md:text-3xl text-white pt-2 font-signature cursor-default">
@@ -65,7 +65,7 @@ function Footer() {
         </a>
       </div>
 
-    </div>
+    </footer>
   )
 }
 
