@@ -87,7 +87,7 @@ function About() {
             Previously, Misagh managed sales for AT&T and co-founded HighPeak Academy in Iran, where he led market analysis courses and strategic growth initiatives. With a background in accounting and certifications in financial analysis, he brings expertise in market strategy, budgeting, and client management.
             </h3>
             <div className='flex justify-center md:justify-normal pt-3'>
-              <a href={'/Misagh Khateri.pdf'} download target='_blank' rel="noreferrer" className="rounded-lg border-2 border-gray-500 text-gray-500 flex px-5 py-1.5 items-center justify-center font-semibold text-sm hover:scale-105 hover:text-gray-300 hover:border-gray-300 transition-all duration-300">
+              <a href={'/Misagh Khateri.pdf'} aria-label='Resume' download target='_blank' rel="noreferrer" className="rounded-lg border-2 border-gray-500 text-gray-500 flex px-5 py-1.5 items-center justify-center font-semibold text-sm hover:scale-105 hover:text-gray-300 hover:border-gray-300 transition-all duration-300">
                 <Download size={24} className='pr-2' />
                 <p className=''>
                   Download CV
