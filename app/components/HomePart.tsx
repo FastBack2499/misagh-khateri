@@ -30,11 +30,11 @@ function HomePart() {
 
           <div className="flex justify-center items-center md:items-start md:justify-normal gap-x-3 w-full h-10 md:py-3 md:pb-[70px] py-8">
 
-            <a href="http://www.linkedin.com/in/misagh-khateri" target='_blank' rel="noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full text-gray-500 border-2 border-gray-500 hover:scale-105 hover:border-gray-300 hover:text-gray-300 transition-all duration-300">
+            <a href="http://www.linkedin.com/in/misagh-khateri" aria-label="Linkedin" target='_blank' rel="noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full text-gray-500 border-2 border-gray-500 hover:scale-105 hover:border-gray-300 hover:text-gray-300 transition-all duration-300">
               <LinkedinBoxFill size={20} />
             </a>
 
-            <a href="https://www.tradingview.com/u/misagh17/" target='_blank' rel="noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full text-gray-500 border-2 border-gray-500 hover:scale-105 hover:border-gray-300 hover:text-gray-300 transition-all duration-300">
+            <a href="https://www.tradingview.com/u/misagh17/" aria-label="Tradingview" target='_blank' rel="noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full text-gray-500 border-2 border-gray-500 hover:scale-105 hover:border-gray-300 hover:text-gray-300 transition-all duration-300">
               <TradingView />
             </a>
 
