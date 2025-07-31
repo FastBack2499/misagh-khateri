@@ -35,6 +35,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link
+          rel="canonical"
+          hrefLang="en-US"
+          href="https://www.misagh-khateri.info"
+          key="canonical"
+        />
         <Script
           id="json-ld"
           type="application/ld+json"
