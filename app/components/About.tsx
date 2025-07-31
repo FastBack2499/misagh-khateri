@@ -81,11 +81,11 @@ function About() {
           <Image src={HeroImage} alt="Hero" className="w-[380px] h-[484] md:w-[378px] md:h-full"/>
 
           <div className='flex flex-col md:pl-16 gap-y-4 pt-8 md:pt-0 cursor-default'>
-            <h3 className='text-gray-400 font-semibold'>
+            <p className='text-gray-400 font-semibold'>
             Misagh Khateri is a finance and banking professional based in San Francisco. Currently an Associate Banker at JPMorgan Chase, he specializes in personalized financial solutions, customer service, and digital banking tools.
             <br/><br/>
             Previously, Misagh managed sales for AT&T and co-founded HighPeak Academy in Iran, where he led market analysis courses and strategic growth initiatives. With a background in accounting and certifications in financial analysis, he brings expertise in market strategy, budgeting, and client management.
-            </h3>
+            </p>
             <div className='flex justify-center md:justify-normal pt-3'>
               <a href={'/Misagh Khateri.pdf'} aria-label='Resume' download target='_blank' rel="noreferrer" className="rounded-lg border-2 border-gray-500 text-gray-500 flex px-5 py-1.5 items-center justify-center font-semibold text-sm hover:scale-105 hover:text-gray-300 hover:border-gray-300 transition-all duration-300">
                 <Download size={24} className='pr-2' />
