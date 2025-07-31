@@ -88,7 +88,7 @@ function Portfolio() {
 
             { site && (
               <div className="w-[88px] py-1.5">
-                <a href={site} download target='_blank' rel="noreferrer" className="rounded-full text-gray-500 flex px-2 py-1 items-center justify-center font-semibold text-sm hover:scale-105 hover:text-gray-300 hover:bg-neutral-700 transition-all duration-300">
+                <a href={site} aria-label='Website' target='_blank' rel="noreferrer" className="rounded-full text-gray-500 flex px-2 py-1 items-center justify-center font-semibold text-sm hover:scale-105 hover:text-gray-300 hover:bg-neutral-700 transition-all duration-300">
               
                   <h3 className=''>
                     Website
