@@ -14,11 +14,11 @@ function Footer() {
 
       <div className="flex justify-center items-center gap-x-3 w-full h-10">
 
-        <a href="http://www.linkedin.com/in/misagh-khateri" target='_blank' rel="noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full text-gray-500 border-2 border-gray-500 hover:scale-105 hover:border-gray-300 hover:text-gray-300 transition-all duration-300">
+        <a href="http://www.linkedin.com/in/misagh-khateri" aria-label='Linkedin' target='_blank' rel="noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full text-gray-500 border-2 border-gray-500 hover:scale-105 hover:border-gray-300 hover:text-gray-300 transition-all duration-300">
           <LinkedinBoxFill size={20} />
         </a>
 
-        <a href="https://www.tradingview.com/u/misagh17/" target='_blank' rel="noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full text-gray-500 border-2 border-gray-500 hover:scale-105 hover:border-gray-300 hover:text-gray-300 transition-all duration-300">
+        <a href="https://www.tradingview.com/u/misagh17/" aria-label='Tradingview' target='_blank' rel="noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full text-gray-500 border-2 border-gray-500 hover:scale-105 hover:border-gray-300 hover:text-gray-300 transition-all duration-300">
           <TradingView />
         </a>
 
@@ -29,7 +29,7 @@ function Footer() {
         <div className='flex justify-center items-center gap-x-2 text-[#959595] hover:text-[#cccccc] hover:scale-105 transition-all duration-300'>
 
           <Envelope strokeWidth={2} size={20} />
-          <a href='mailto:Misaghkhateri@gmail.com' target='_blank' rel="noreferrer" className='font-semibold'>
+          <a href='mailto:Misaghkhateri@gmail.com' aria-label='Email' target='_blank' rel="noreferrer" className='font-semibold'>
             Misaghkhateri@gmail.com
           </a>
 
@@ -38,7 +38,7 @@ function Footer() {
         <div className='flex justify-center items-center gap-x-2 text-[#959595] hover:text-[#cccccc] hover:scale-105 transition-all duration-300'>
 
           <Phone size={20} />
-          <a href='tel:628-946-7479' className='font-semibold'>
+          <a href='tel:628-946-7479' aria-label='Phone Number' className='font-semibold'>
             +1 628-946-7479
           </a>
 
@@ -47,7 +47,7 @@ function Footer() {
         <div className='flex justify-center items-center gap-x-2 text-[#959595] hover:text-[#cccccc] hover:scale-105 transition-all duration-300'>
 
           <Location size={20} />
-          <a href='https://maps.app.goo.gl/SFfS2v7e2HvpHVTaA' target='_blank' rel="noreferrer" className='font-semibold'>
+          <a href='https://maps.app.goo.gl/SFfS2v7e2HvpHVTaA' aria-label='Location' target='_blank' rel="noreferrer" className='font-semibold'>
             San Francisco, CA
           </a>
 
@@ -60,7 +60,7 @@ function Footer() {
         <p className=''>
           Designed and Developed by
         </p>
-        <a href='https://github.com/FastBack2499' target='_blank' rel="noreferrer" className='font-bold hover:text-[#aaaaaa] hover:scale-105 transition-all duration-300'>
+        <a href='https://github.com/FastBack2499' aria-label='Developer' target='_blank' rel="noreferrer" className='font-bold hover:text-[#aaaaaa] hover:scale-105 transition-all duration-300'>
           Roham Esmaeili
         </a>
       </div>
